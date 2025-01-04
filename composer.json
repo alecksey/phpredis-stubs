@@ -1,0 +1,23 @@
+{
+  "name":         "alecksey/phpredis-stubs",
+  "type":         "library",
+  "description":  "@phpdoc extension phpredis for IDE autocomplete",
+  "keywords":     ["redis", "phpredis", "ide-stubs"],
+  "homepage":     "https://github.com/alecksey/phpredis-stubs",
+  "license":      "MIT",
+  "authors":[
+    {
+      "name":     "Oleksii Bogatchenko",
+      "email":    "oleksii.bogatchenko@gmail.com",
+      "role":     "Developer"
+    }
+  ],
+  "require":{
+    "php":">=7.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "phpredis-stubs": "src/"
+    }
+  }
+}
